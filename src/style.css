@@ -9,7 +9,7 @@ body {
 
 .home{
     margin: 0%;
-    background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?t=st=1741256946~exp=1741260546~hmac=c1f6fed0adcefcc8a2a04f9a186bf9e7334ddad51a89cd670c1518824f881e59&w=1380");
+    background-image: url("/images/homebg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ h3{
 .arrow{
     position: absolute;
     bottom:0;
-    margin:10px 0;
+    margin:10px auto;
     color:dimgray;
     font-size: 3.5rem;
     cursor: pointer;
@@ -76,7 +76,7 @@ h3{
 
 .main {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: enter;
     background-size: cover;
     background-attachment: fixed;
    background-blend-mode:overlay;
@@ -334,6 +334,9 @@ padding:30px;
 
 @media screen and (max-width: 960px) {
 
+  body{
+    overflow-x: hidden;
+  }
   
   h1{
     font-size:3.5rem;
@@ -350,6 +353,8 @@ padding:30px;
   }
 
  .main {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -377,6 +382,10 @@ padding:30px;
 
 @media screen and (max-width: 695px) {
 
+  body{
+    overflow-x: hidden;
+  }
+
   h1{
     font-size:2.8rem;
      top:40%;
@@ -388,6 +397,8 @@ padding:30px;
   }
 
   .main {
+    background-size:cover;
+    background-attachment: fixed;
       padding: 8px 32px 0;
   }
 

@@ -9,7 +9,7 @@ const projectsDetails = [
     },
     {
         style : {
-            backgroundImage: "url('https://img.freepik.com/free-vector/top-view-laptop-technology-background_23-2148127684.jpg?ga=GA1.1.1528048428.1741255108&semt=ais_hybrid')" ,
+            backgroundImage: "url('https://img.freepik.com/free-vector/top-view-laptop-technology-background_23-2148127684.jpg?ga=GA1.1.1528048428.1741255108&semt=ais_hybrid')",
             backgroundPosition: "center right"
         } ,
         url :"www.instagram.com",
@@ -25,7 +25,9 @@ const projectsDetails = [
     },
     {
         style : {
-            backgroundImage: "url('https://img.freepik.com/free-vector/antigravity-technology-with-elements_23-2148089654.jpg?ga=GA1.1.1528048428.1741255108&semt=ais_hybrid')"},
+            backgroundImage: "url('https://img.freepik.com/free-vector/antigravity-technology-with-elements_23-2148089654.jpg?ga=GA1.1.1528048428.1741255108&semt=ais_hybrid')",
+            backgroundAttachment:"fixed",
+            backgroundSize: "cover"},
         url :"www.twitter.com",
         name:"Twitter",
         des:"lorem ipsum dolor sit"

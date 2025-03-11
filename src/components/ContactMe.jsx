@@ -2,8 +2,8 @@ import Smicons from "./Smicons.jsx";
 import { motion} from "motion/react";
 
 export default function ContactMe(){
-    return <motion.div initial={{x : "-800px"}}
-   whileInView={{x : "0px"}} transition= {{ duration: "2 " , type:"spring"}} className="contactme" id="contactme">
+    return <motion.div initial={{x : "-270px"}}
+   whileInView={{x : "0px"}} transition= {{ duration: "1.5 " , type:"spring"}} className="contactme" id="contactme">
       <h2>Wanna Stay in Contact</h2>
       <h4>Get in Touch</h4>
       <div className="social-container gradient-style">
